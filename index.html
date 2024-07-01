@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="menuContainer">
+            <h2>Pizza constructor</h2>
+            <p>Оберіть інградієнти</p>
+
+            <div class="categoryTitle" id="cheese">Сир</div>
+            <div class="cheeseGroup">
+                <div class="row">
+                    <div class="group" id="fetaGroup">
+                        <img src="./img/feta.png" alt="feta">
+                        <div>Фета</div>
+                    </div>
+
+                     <div class="group" id="mozzarellaGroup">
+                        <img src="./img/motza.png" alt="mozzarella">
+                        <div>Моцарелла</div>
+                    </div>
+                <div class="group" id="cheddarGroup">
+                    <img src="./img/cheder.png" alt="cheddar">
+                    <div>Чедер</div>
+                </div>
+                </div>
+               <div class="row">
+                <div class="group" id="bluGroup">
+                    <img src="./img/blu.png" alt="blu">
+                    <div>Фета</div>
+                </div>
+                <div class="group" id="parmezanGroup">
+                    <img src="./img/parmezan.png" alt="parmezan">
+                    <div>Моцарелла</div>
+                </div>
+               </div>
+            </div>
+            <div class="container">
+            <div class="categoryTitle" id="meat">М'ясо</div>
+            <div class="meatGroup">
+            <div class="row">
+                <div class="group" id="bekonGroup">
+                    <img src="./img/bekon.png" alt="bekon">
+                    <div>Бекон</div>
+                </div>
+                <div class="group" id="paparoniGroup">
+                    <img src="./img/paparoni.png" alt="paparoni">
+                    <div>Папероні</div>
+                </div>
+                <div class="group" id="shunkaGroup">
+                    <img src="./img/shunka.png" alt="shunka">
+                    <div>Шинка</div>
+                </div>
+           
+           <div class="row">
+            <div class="group" id="chickenGroup">
+                <img src="./img/chicken.png" alt="chicken">
+                <div>Курка</div>
+                </div>
+            </div>
+           
+           </div>
+               
+            </div>
+
+
+            <div class="categoryTitle" id="meat">Соуси</div>
+            <div class="sousGroup">
+            <div class="row">
+                <div class="group" id="barbequGroup">
+                    <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\barbequ.png" alt="barbequ">
+                    <div>Барбек'ю</div>
+                </div>
+                <div class="group" id="chasnykGroup">
+                    <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\chasnyk.png" alt="chasnyk">
+                    <div>Часник</div>
+                </div>
+                <div class="group" id="alfredoGroup">
+                    <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\alfredo.png" alt="alfredo">
+                    <div>Альфредо</div>
+                </div>
+
+           
+           </div>
+               
+            </div>
+
+
+            <div class="categoryTitle" id="meat">Добавки</div>
+            <div class="addGroup">
+            <div class="row">
+                <div class="group" id="ananasGroup">
+                    <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\ananas.png" alt="ananas">
+                    <div>Ананас</div>
+                </div>
+                <div class="group" id="grubGroup">
+                    <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\grub.png" alt="grub">
+                    <div>Гриб</div>
+                </div>
+                <div class="group" id="kukurudzaGroup">
+                    <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\kukurudza.png" alt="kukurudza">
+                    <div>Кукурудза</div>
+                </div>
+                <div class="group" id="peretsGroup">
+                    <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\perets.png" alt="perets">
+                    <div>Перець</div>
+                </div>
+                <div class="group" id="shpunatGroup">
+                    <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\shpunat.png" alt="shpunat">
+                    <div>Шпинат</div>
+                </div>
+                <div class="group" id="tomatoGroup">
+                    <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\tomato.png" alt="tomato">
+                    <div>Помідор</div>
+                </div>
+           </div>
+               
+            </div>
+
+
+</div>
+
+
+
+        </div>
+
+
+        <div class="pizzaWrapper">
+            <div class="pizzaItem" id="fetaHide">
+                <img src="./img/feta.png" alt="feta">
+            </div>
+             <div class="pizzaItem" id="mozzarellaHide">
+                <img src="./img/motza.png" alt="moza">
+            </div>
+            <div class="pizzaItem" id="cheddarHide">
+                <img src="./img/cheder.png" alt="cheddar">
+            </div>
+            <div class="pizzaItem" id="bluHide">
+                <img src="./img/blu.png" alt="blu">
+            </div>
+            <div class="pizzaItem" id="parmezanHide">
+                <img src="./img/parmezan.png" alt="parmezan">
+            </div>
+            <div class="pizzaItem" id="parmezanHide">
+                <img src="./img/parmezan.png" alt="parmezan">
+            </div>
+            <div class="pizzaItem" id="bekonHide">
+                <img src="./img/bekon.png" alt="bekon">
+            </div>
+            <div class="pizzaItem" id="paparoniHide">
+                <img src="./img/paparoni.png" alt="paparoni">
+            </div>
+            <div class="pizzaItem" id="shunkaHide">
+                <img src="./img/shunka.png" alt="shunka">
+            </div>
+            <div class="pizzaItem" id="chickenHide">
+                <img src="./img/chicken.png" alt="chicken">
+            </div>
+            <div class="pizzaItem" id="barbequHide">
+                <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\barbequ.png" alt="barbequ">
+            </div>
+            <div class="pizzaItem" id="chasnykHide">
+                <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\chasnyk.png" alt="chasnyk">
+            </div>
+            <div class="pizzaItem" id="alfredoHide">
+                <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\alfredo.png" alt="alfredo">
+            </div>
+            <div class="pizzaItem" id="ananasHide">
+                <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\ananas.png" alt="ananas">
+            </div>
+            <div class="pizzaItem" id="grubHide">
+                <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\grub.png" alt="grub">
+            </div>
+            <div class="pizzaItem" id="kukurudzaHide">
+                <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\kukurudza.png" alt="kukurudza">
+            </div>
+            <div class="pizzaItem" id="peretsHide">
+                <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\perets.png" alt="perets">
+            </div>
+            <div class="pizzaItem" id="shpunatHide">
+                <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\shpunat.png" alt="shpunat">
+            </div>
+            <div class="pizzaItem" id="tomatoHide">
+                <img src="c:\Users\Admin\Desktop\╨▒╨╡╨╖╤Ц╨╝╨╡╨╜╨╜╨░ ╨┐╨░╨┐╨║╨░\img\tomato.png" alt="tomato">
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./style.css">
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="menuContainer">
+            <h2>Pizza Container</h2>
+            <p>Оберіть інгрідієнти</p>
+
+            <div class="categoryTitle" id="cheese">Сир</div>
+            <div class="cheeseGroup">
+            <div class="row">
+                <div class="group" id="fetaGroup">
+                    <img src="./img/feta.png" alt="feta">
+                    <div>Фета</div>
+                </div>
+                <div class="group" id="mozzarellaGroup">
+                    <img src="./img/motza.png" alt="mozzarella">
+                    <div>Моцарелла</div>
+                </div>
+                <div class="group" id="cheddarGroup">
+                    <img src="./img/cheder.png" alt="cheddar">
+                    <div>Чедер</div>
+                </div>
+            </div>
+           <div class="row">
+            <div class="group" id="bluGroup">
+                <img src="./img/blu.png" alt="blu">
+                <div>Фета</div>
+            </div>
+            <div class="group" id="parmezanGroup">
+                <img src="./img/parmezan.png" alt="parmezan">
+                <div>Моцарелла</div>
+            </div>
+           </div>
+               
+            </div>
+            
+
+            <div class="categoryTitle" id="meat">М'ясо</div>
+            <div class="meatGroup">
+            <div class="row">
+                <div class="group" id="bekonGroup">
+                    <img src="./img/bekon.png" alt="bekon">
+                    <div>Бекон</div>
+                </div>
+                <div class="group" id="paparoniGroup">
+                    <img src="./img/paparoni.png" alt="paparoni">
+                    <div>Папероні</div>
+                </div>
+                <div class="group" id="hamGroup">
+                    <img src="./img/shunka.png" alt="cheddar">
+                    <div>Шинка</div>
+                </div>
+           
+           <div class="row">
+            <div class="group" id="chickenGroup">
+                <img src="./img/chicken.png" alt="chicken">
+                <div>Курка</div>
+                </div>
+            </div>
+           
+           </div>
+               
+            </div>
+
+
+
+            </div>
+
+         <div class="pizzaWrapper">
+            <div class="pizzaItem" id="fetaHide">
+                <img src="./img/feta.png" alt="feta">
+            </div>
+            <div class="pizzaItem" id="mozzarellaHide">
+                <img src="./img/feta.png" alt="mozzarella">
+            </div>
+         </div>
+         <div class="pizzaItem" id="cheddarHide">
+            <img src="./img/feta.png" alt="cheddar">
+        </div>
+     </div>
+     <div class="pizzaItem" id="bluGroup">
+        <img src="./img/blu.png" alt="blu">
+    </div>
+ </div>
+ <div class="pizzaItem" id="fetaHide">
+    <img src="./img/feta.png" alt="feta">
+</div>
+</div>
+         </div> -->

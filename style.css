@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.wrap {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menuContainer {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuContainer h2 {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.menuContainer p {
+    margin: 20px 0;
+}
+
+.categoryTitle {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 2px dotted orange;
+    margin: 5px;
+    font-weight: 900;
+}
+
+.row {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.group img {
+    width: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+.group div {
+    font-size: 12px;
+}
+
+.pizzaWrapper {
+    width: 500px;
+    height: 500px;
+    background-image: url(./img/bace.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pizzaItem img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.pizzaItem {
+    margin: 10px;
+}
